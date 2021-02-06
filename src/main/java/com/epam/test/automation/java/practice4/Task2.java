@@ -1,5 +1,4 @@
 package com.epam.test.automation.java.practice4;
-import com.epam.test.automation.java.practice4.Task1;
 
 public class Task2 {
 
