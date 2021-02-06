@@ -2,14 +2,23 @@ package com.epam.test.automation.java.practice4;
 
 public class Task1 {
 
-    /**
-     * <summary>
-     * Implement code according to description of task.
-     * </summary>
-     * if set invalid arguments in method, then method must throws
-     *  IllegalArgumentException
-     */
+    private Task1()
+    {
+
+    }
+
     public static boolean isSorted(int[] array, SortOrder order) {
-        throw new UnsupportedOperationException();
+        if (array == null)
+        {
+            throw new IllegalArgumentException();
+        }
+
+        for (int i = 1; i < array.length; i++)
+            if (order == SortOrder.ascending)
+            {
+                if (array[i] < array[i - 1]) return false;
+            }
+            else if (array[i] > array[i - 1]) return false;
+        return true;
     }
 }
