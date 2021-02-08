@@ -22,3 +22,4 @@ public class Task1 {
         return true;
     }
 }
+
