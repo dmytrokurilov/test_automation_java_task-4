@@ -8,6 +8,10 @@ public class Task1 {
     }
 
     public static boolean isSorted(int[] array, SortOrder order) {
+        if (array == null)
+        {
+            throw new IllegalArgumentException();
+        }
 
         for (int i = 1; i < array.length; i++)
             if (order == SortOrder.ASC)
