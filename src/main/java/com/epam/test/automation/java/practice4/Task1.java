@@ -14,7 +14,7 @@ public class Task1 {
         }
 
         for (int i = 1; i < array.length; i++)
-            if (order == SortOrder.ascending)
+            if (order == SortOrder.ASC)
             {
                 if (array[i] < array[i - 1]) return false;
             }
