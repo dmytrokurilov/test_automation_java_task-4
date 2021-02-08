@@ -10,11 +10,11 @@ public class Task4 {
 
         if (t <= 0)
         {
-            throw new java.lang.IllegalArgumentException();
+            throw new IllegalArgumentException();
         }
-        if (alim <= 0)
+        if (alim < 0)
         {
-            throw new java.lang.IllegalArgumentException();
+            throw new IllegalArgumentException();
         }
 
         double sum = 0;
