@@ -9,12 +9,7 @@ public class Task3 {
 
     public static int multiArithmeticElements(int a1, int t, int n) {
 
-        if (a1 < 0)
-        {
-            throw new java.lang.IllegalArgumentException();
-        }
-
-        if (n <= 0)
+      if (n <= 0)
         {
             throw new java.lang.IllegalArgumentException();
         }

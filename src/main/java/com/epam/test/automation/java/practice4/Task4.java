@@ -8,11 +8,6 @@ public class Task4 {
     }
     public static double sumGeometricElements(int a1, double t, int alim) {
 
-        if (a1 < 0)
-        {
-            throw new java.lang.IllegalArgumentException();
-        }
-
         if (alim <= 0)
         {
             throw new java.lang.IllegalArgumentException();
