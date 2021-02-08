@@ -10,7 +10,7 @@ public class Task2 {
     public static int[] transform(int[] array, SortOrder order) {
         if (array == null)
         {
-            throw new IllegalArgumentException();
+            throw new java.lang.IllegalArgumentException();
         }
         if (Task1.isSorted(array, order))
         {

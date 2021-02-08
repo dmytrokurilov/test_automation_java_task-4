@@ -10,8 +10,14 @@ public class Task4 {
 
         if (a1 < 0)
         {
-            throw new IllegalArgumentException();
+            throw new java.lang.IllegalArgumentException();
         }
+
+        if (alim <= 0)
+        {
+            throw new java.lang.IllegalArgumentException();
+        }
+
         double sum = 0;
         while (a1 > alim)
         {

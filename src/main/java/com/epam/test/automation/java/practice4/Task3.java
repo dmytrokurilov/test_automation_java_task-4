@@ -11,11 +11,13 @@ public class Task3 {
 
         if (a1 < 0)
         {
-            throw new IllegalArgumentException();
+            throw new java.lang.IllegalArgumentException();
         }
 
-        if (t <= 0)
-            return 0;
+        if (n <= 0)
+        {
+            throw new java.lang.IllegalArgumentException();
+        }
 
         int total = 1;
         for (int i = 1; i <= n; i++)
